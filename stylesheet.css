@@ -1,0 +1,132 @@
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/image/pexels-vishnudeep-dixit-1260801.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+.navbar {
+   height: 12%;
+   display: flex;
+   align-items: center; 
+}
+
+.menu-icon {
+   width: 30px;
+   cursor: pointer;
+   margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+    margin-left: 80px;
+} 
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.05s;
+}
+
+.card1 {
+        background-image: url(/image/agrafort.png);
+}
+
+.card2 {
+    position: relative;
+    top: 18px;
+    background-image: url(/image/charminar2.png);
+}
+
+.card3 {
+    background-image: url(/image/qutubminar2.png);
+}
+
+.card4 {
+    position: relative;
+    top: 18px;
+    background-image: url(/image/Nahargarh\ Fort\ Jaipur.png);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p{
+        text-shadow: 0 0 15px #000;
+        font-size: 8px;
+}
